@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    
+body {
+    background-color: #f9fafc;
+    margin: 0 auto;
+    max-width: 1071px;
+	padding: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a.chirp {
+    color: #000000;
+}
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+} 
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none; 
+    color: #69696a;
+    font-weight: normal;
+  }
+
+a.scroll {
+    color: white;
+}
+  
+h1 {
+    font-weight: 800;
+}
+a.hire {
+    background-color: #000;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+}
+
+p {
+    padding: 5px;
+}
+
+#line {
+    width: 0px;
+    height: 15vh;
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 10px;
+}
+a.scroll {
+    display: block;
+    line-height: 10px;
+    text-align: center; 
+    background-color: #000;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+  }
+
+
+#circles {
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        flex-direction: row;
+    }
+
+    li{ 
+        display: inline-block;
+        padding: 10px;
+    }
+
+    #circle {
+        position: absolute;
+        right: 137px;
+        top: 230px;
+        width: 300px;
+        height: 300px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: rgba(247, 136, 167, 0.6);
+    }
+    
+    #circleTwo {
+        position: absolute; 
+        right: 36px;
+        top: 382px;
+        width: 200px;
+        height: 200px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: rgba(247, 193, 162, 0.7);
+    }
+    
+    #circleThree {
+        position: absolute; 
+        right: 36px;
+        top: 262px;
+        width: 150px;
+        height: 150px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: rgba(207, 130, 213, 0.6);
+    }
+
+    p {
+        width: 400px;
+        padding: 5px;
+    }
+    
+    h1 {
+        padding-top: 100px;
+    }
+
+    a.scroll{
+        display: inline;
+    }
+
+    #scroll {
+        text-align: center;
+        padding-top: 200px;
+    }
+}
